@@ -1,0 +1,104 @@
+.priceBox{
+    width: 100%;
+    height: 0;
+    font-family: "Helvetica";
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
+.priceBox_tip{
+    width: 100%;
+    height: 25px;
+    background-color: #FF4439;
+    color: #ffffff;
+    font-size: 11px;
+    padding-left: 15px;
+    line-height: 25px;
+}
+.priceBox_calc{
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    position: relative;
+}
+.priceBox_calc_s{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff4438;
+    padding-left: 15px;
+    line-height: 50px;
+}
+.priceBox_calc_add{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    float: right;
+    margin-top: 13px;
+    margin-right: 15px;
+    background-image: url("../img/add.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+.priceBox_calc_num{
+    display: inline-block;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+
+    float: right;
+    margin-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.priceBox_calc_redu{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    float: right;
+    margin-top: 13px;
+    background-image: url("../img/reduce.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+.priceBox_calc_remain{
+    font-size: 10px;
+    color: #b2b2b2;
+    line-height: 50px;
+
+    margin-right: 10px;
+    float: right;
+}
+.priceBox_foot{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+
+    position: relative;
+}
+.priceBox_foot_h{
+    font-size: 23px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 50px;
+    padding-left: 15px;
+    display: inline-block;
+    margin-top: 0;
+}
+.priceBox_foot_btn{
+    width: 125px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #1FBAD6;
+    border: none;
+    cursor: pointer;
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Helvetica";
+
+    position: absolute;
+    top:7px;
+    right: 7px;
+}

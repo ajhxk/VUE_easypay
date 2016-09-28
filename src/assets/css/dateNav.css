@@ -1,0 +1,78 @@
+.dateMenu{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    color: #808080;
+    margin-top: -1px;
+    font-family: "Helvetica";
+}
+.dateMenu_box{
+    width: 14.285%;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+}
+.dateMenu_box_time{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.dateMenu_box_num{
+    font-weight: bold;
+    font-size: 18px;
+    width: 18px;
+    height: 25px;
+    line-height:25px;
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    margin-left: -9px;
+}
+.weekDate{
+    color: #2a8293;
+}
+.dateOn{
+    color: #ffffff;
+}
+.weekDateOn{
+    color: #1FBAD6;
+}
+.dateMenu_box_triangleUp{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 5px solid #e6e6e6;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -7px;
+}
+
+.fl{float: left;display: inline;}
+.fr{float: right;display: inline;}
+
+/* change */
+.dateMenu_box.active{
+    color: #ffffff;
+}
+.dateMenu_box.active:after{
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -7px;
+
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 5px solid #e6e6e6;
+    content:"";
+
+}
+.dateMenu_box.week{
+    color: #2a8293;
+}
+.dateMenu_box.week.active{
+    color: #1FBAD6;
+}

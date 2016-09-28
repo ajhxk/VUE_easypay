@@ -1,0 +1,25 @@
+handleResponse(
+	{
+	  "infos":{
+           "date":[
+                {"dateStr":"五", "time":"09:08", "id":"555"},
+
+                {"dateStr":"六", "time":"09:07", "id":"666"},
+
+                {"dateStr":"日", "time":"09:06", "id":"777"},
+
+                {"dateStr":"一", "time":"09:06", "id":"111"},
+
+                {"dateStr":"二", "time":"09:08", "id":"222"},
+
+                {"dateStr":"三", "time":"09:07", "id":"333"},
+
+                {"dateStr":"四", "time":"09:06", "id":"444"}
+           ]
+	  },
+
+	  "type":"200",
+
+	  "msg":"欢迎入场"
+	}
+)

@@ -1,0 +1,91 @@
+.priceModel_H{
+    position: fixed;
+    width: 100%;
+    height: 145px;
+    z-index: 50;
+    background-color: #333333;
+    bottom: 0px;
+    font-family: Helvetica;
+}
+.priceBlockBox{
+    width: 100%;
+    height: 95px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    padding: 15px;
+}
+.priceBlockBox:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    transform: scaleY(.5);
+    -webkit-transform: scaleY(.5);
+    background-color: #fff;
+}
+.priceBlock{
+    display: inline-block;
+    width: calc(25% - 6px);
+    height: 65px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #1fbad6;
+    margin: 0;
+    text-align: center;
+}
+.priceBlock:not(:first-child){
+    display: inline-block;
+    width: calc(25% - 6px);
+    height: 65px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #1fbad6;
+    margin-left: 8px;
+}
+.price_venueName{
+    font-size: 13px;
+    line-height: 13px;
+    color: #1fbad6;
+    margin-top: 6px;
+}
+.price_venueTime{
+    font-size: 10px;
+    line-height: 10px;
+    color: #1fbad6;
+    margin-top: 10px;
+}
+.price_pack{
+    font-size: 9px;
+    line-height: 9px;
+    color: #666666;
+    margin-top: 8px;
+}
+.priceTextBox{
+    height: 50px;
+    width: 100%;
+    padding: 0 7px 0 15px;
+    color: #ffffff;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.priceTextBox_text{
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.priceTextBox_btn{
+    width: 125px;
+    height: 36px;
+    background-color: #1fbad6;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+.text_hide{color: transparent !important;}
